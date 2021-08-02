@@ -1,0 +1,48 @@
+@import '../../assets/colors.scss';
+
+.modal-content {
+  height: 700px;
+  overflow: scroll;
+  .body-content{
+    background-color: $modalBgColor;
+    // opacity: 0.5;
+    border-radius: 5px;
+  }
+  .no-data {
+    border-radius: 4px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+  }
+  .card{
+    border: 1px solid #303F6080;
+border-radius: 5px;
+opacity: 1;
+  .name-initiator{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: $bottomBodyBgColor;
+    padding: 12px;
+    text-align: center;
+    margin-right: 15px;
+  }
+  .heading{
+    font-weight: 500;
+    color: $upperBodybgColor;
+  }
+  .skills{
+    color: $upperBodybgColor;
+  }
+}
+}
+
+.loading-section {
+  justify-content: center;
+  display: flex;
+  align-items: center;
+}
+
+.modal-lg {
+  max-width: 700px !important;
+}

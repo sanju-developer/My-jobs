@@ -1,0 +1,47 @@
+@import "../../assets/colors.scss";
+
+header {
+  // background: $upperBodybgColor;
+  background: transparent linear-gradient(253deg, #303f60 0%, #1a253c 100%) 0% 0% no-repeat padding-box;
+}
+
+.header-container {
+  border-bottom: 1px solid $borderLine;
+
+  .curser-pointer {
+    cursor: pointer;
+  }
+  .my {
+    color: $white;
+    font-size: 24px;
+    font-weight: 700;
+  }
+  .jobs {
+    color: $blueColor;
+    font-weight: 700;
+    font-size: 24px;
+  }
+  .logout-section {
+    .name-initiator {
+      width: 45px;
+      height: 45px;
+      border-radius: 50%;
+      background-color: $bottomBodyBgColor;
+      align-items: center;
+      margin-left: 20px;
+      font-size: 20px;
+    }
+    .post-job {
+      padding: 10px 8px;
+      cursor: pointer;
+    }
+    .dropdown {
+      .dropdown-toggle {
+        background: none;
+        border: none;
+        color: #fff;
+        margin-top: 8px;
+      }
+    }
+  }
+}

@@ -1,5 +1,9 @@
+@import "./assets/colors.scss";
+
 .App {
   text-align: center;
+  height: 100vh;
+  background-color: $bottomBodyBgColor;
 }
 
 .App-logo {

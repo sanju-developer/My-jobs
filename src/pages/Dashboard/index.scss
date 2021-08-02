@@ -1,0 +1,16 @@
+@import "../../assets/colors.scss";
+
+.dashboard-container {
+  .no-job-posted-container {
+    padding-top: 300px;
+    p {
+      color: $upperBodybgColor;
+    }
+  }
+  .posted-job-container {
+    // padding-top: 80px;
+  }
+}
+.layout-container {
+  // height: 210px !important;
+}

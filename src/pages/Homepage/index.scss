@@ -1,0 +1,38 @@
+@import "../../assets/colors.scss";
+
+.homepage-container {
+  .left-portion {
+    font-size: 60px;
+    color: $white;
+
+    .line-height {
+      line-height: 1;
+    }
+  }
+  .right-portion{
+    img{
+      width: 620px;
+      height: 400px;
+      border-radius: 20px;
+    }
+  }
+  .bold-font {
+    font-weight: bold;
+  }
+}
+.job-title {
+  color: $upperBodybgColor;
+}
+.job-description {
+  min-height: 64px;
+  color: $upperBodybgColor;
+  opacity: 0.8;
+}
+.bottom-section {
+  padding-top: 100px;
+
+  .card {
+    box-shadow: 0px 3px 6px #557da526;
+    border-radius: 5px;
+  }
+}
